@@ -47,49 +47,36 @@ A continuación veremos la distribucion del manipulador y del objeto de trabajo,
 
 
 
-## Código en RAPID
-En [este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el modulo 1 del controlador.
-
-
-
-
-
-## Funciones utilizadas
+## Funciones y estructuras de programación utilizadas
 En la parte de la programación del controlador tenemos las siguientes funciones:
-
-- PROC y ENDPROC: Estas palabras estan reservadas para la creacion de "funciones", que en este caso se denominan procedimientos.
+- PROC y ENDPROC: Estas palabras estan reservadas para la creacion de "funciones", que en este caso se denominan procedimientos y tienen el siguiente formato:
     ```
     PROC nombre()
         instrucciones...
     ENDPROC
     ```
-
-- main: Es el nombre de la rutina principal, aqui se ejecuta el ciclo continuamente.
-
+- WHILE TRUE DO ... ENDWHILE: Es la forma en que se genera un ciclo infinito.
 - Reset y Set: Son las palabras usadas para manipular salidas digitales, tambien se puede usar con salidas virtuales o una señal a un "Smart Component"
     ```
     Set DO_01;
     Reset DO_02;
     Set vDO_03;
     ```
-
 - WaitTime: Pausa la ejecución durante un numero de segundos
     ```
     WaitTime 2;
     ```
-
-- WHILE TRUE DO ... ENDWHILE: Es la forma en que se genera un ciclo
 - IF ... THEN ... ELSEIF ... ENDIF: Es un condicional usado para las entradas digitales
     ```
     IF DI_01 = 1 THEN
         ...
+    ENDIF
     ```
-
+- main: Es el nombre de la rutina principal, aqui se ejecuta el ciclo continuamente.   
 - MoveJ, MoveL y MoveC: Estos comandos son usados para poder mover el robot.
     - MoveJ realiza un movimiento conjunto entre posiciones sin seguir una linea recta. (Se usa para desplazamientos no críticos).
     - MoveL realiza movimiento lineal entre puntos.
     - MoveC hace movimiento circular entre dos puntos intermedios, creando un arco o una curva.
-
 - Por ultimo tenemos distintas funciones/procedimientos que son personalizadas:
     - dibujar: Secuencia completa de trazado.
     - Path_Home: Lleva al robot a una posicion de inicio.
@@ -111,15 +98,15 @@ A continuacion vemos el diseño CAD en Autodesk Inventor:
 </p>
 
 Cada una de las partes son:
-- Base:
+Base:
 <p align="center">
     <img width="300" alt="workspace" src="images/base.png">
 </p>
-- Cuerpo:
+Cuerpo:
 <p align="center">
     <img width="300" alt="workspace" src="images/cuerpo.png">
 </p>
-- Tapa:
+Tapa:
 <p align="center">
     <img width="300" alt="workspace" src="images/tapa.png">
 </p>
@@ -128,5 +115,12 @@ Cada una de las partes son:
 
 
 
+## Código en RAPID
+En [este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el módulo 1 del controlador.
+
+
+
+
+
 ## Video: simulación e implementación
-Se presenta la simulacióne e implementación correspondientes a lo descrito anteriormente en el siguiente enlace de YouTube: https://youtu.be/p57teWZQysk
+Se presenta la simulación e implementación correspondientes a lo descrito anteriormente en el siguiente enlace de YouTube: https://youtu.be/p57teWZQysk
