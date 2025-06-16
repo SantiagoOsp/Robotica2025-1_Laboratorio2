@@ -7,7 +7,7 @@ En esta practica de laboratorio realizaremos una simulacion e implementacion en 
 
 La siguiente imagen es respecto al diagrama de flujo del proceso realizado por el robot:
 
-<img width="700" alt="workspace" src="images/flowchart.png">
+<img width="300" alt="workspace" src="images/flowchart.png">
 
 ### Planos del sistema
 
