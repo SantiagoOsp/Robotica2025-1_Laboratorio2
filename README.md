@@ -1,4 +1,4 @@
-# Robotica 2025-1 Laboratorio2
+# Robotica 2025-1 Laboratorio 2
 Repositorio destinado para subir archivos de simulación, diseño, de la practica 2 del laboratorio.
 
 En esta práctica de laboratorio realizaremos una simulacion e implementacion en un manipulador de la marca ABB (IRB140). Nos basaremos en la industria de la decoración de pasteles ya que buscaremos crear una imagen que muestre las iniciales de los integrantes del grupo. Para esto haremos uso del software RobotStudio donde crearemos una simulacion de la maquina, de la herramienta creada y del proceso de dibujo (trayectorias).
