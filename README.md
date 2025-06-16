@@ -14,12 +14,14 @@ La siguiente imagen es respecto al diagrama de flujo del proceso realizado por e
 A continuación veremos la distribucion del manipulador y del objeto de trabajo, asi como una vista general:
 
 <p align="center">
-    <img width="300" alt="workspace" src="images/Top.png">
+    <img width="500" alt="workspace" src="images/Top.png">
 </p>
 
 >Vista superior
 
-![](images/VistaIso.png)
+<p align="center">
+    <img width="500" alt="workspace" src="images/Iso.png">
+</p>
 
 >Distribución general
 
@@ -77,18 +79,26 @@ Para la creacion de la herramienta se busco que fuera modular para mayor facilid
 
 A continuacion vemos el diseño en CAD:
 
-![](images/Herramienta.png)
+<p align="center">
+    <img width="500" alt="workspace" src="images/Herramienta.png">
+</p>
 
 >Diseño CAD
 
 Cada una de las partes son:
 
 - Base:
-![](images/base.png)
+<p align="center">
+    <img width="500" alt="workspace" src="images/base.png">
+</p>
 - Cuerpo:
-![](images/cuerpo.png)
+<p align="center">
+    <img width="500" alt="workspace" src="images/cuerpo.png">
+</p>
 - Tapa:
-![](images/tapa.png)
+<p align="center">
+    <img width="500" alt="workspace" src="images/tapa.png">
+</p>
 
 ### Código en RAPID
 
