@@ -8,8 +8,8 @@ En esta práctica de laboratorio realizaremos una simulacion e implementacion en
 
 
 ## Diagrama de flujo
-
 La siguiente imagen es respecto al diagrama de flujo del proceso realizado por el robot:
+
 <p align="center">
     <img width="300" alt="workspace" src="images/flowchart.png">
 </p>
@@ -19,10 +19,9 @@ La siguiente imagen es respecto al diagrama de flujo del proceso realizado por e
 
 
 ## Planos del sistema
-
 A continuación veremos la distribucion del manipulador y del objeto de trabajo, asi como una vista general:
 
->Vista superior
+>Vista superior del espacio de trabajo
 <p align="center">
     <img width="500" alt="workspace" src="images/Top.png">
 </p>
@@ -37,18 +36,17 @@ A continuación veremos la distribucion del manipulador y del objeto de trabajo,
 
 
 ## Funciones utilizadas
-
 En la parte de la programación del controlador tenemos las siguientes funciones:
 
 - PROC y ENDPROC: Estas palabras estan reservadas para la creacion de "funciones", que en este caso se denominan procedimientos.
-
     ```
     PROC nombre()
-    ...instrucciones...
+        instrucciones...
     ENDPROC
     ```
 
-- main: Es el nombre de la rutina principal, aqui se ejecuta el ciclo continuamente
+- main: Es el nombre de la rutina principal, aqui se ejecuta el ciclo continuamente.
+
 - Reset y Set: Son las palabras usadas para manipular salidas digitales, tambien se puede usar con salidas virtuales o una señal a un "Smart Component"
 
     ```
@@ -115,3 +113,7 @@ Cada una de las partes son:
 ## Código en RAPID
 
 En [este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el modulo 1 del controlador.
+
+## Video: simulación e implementación
+
+Se presenta la simulacióne e implementación correspondientes a lo descrito anteriormente en el siguiente enlace de YouTube: https://youtu.be/p57teWZQysk
