@@ -6,14 +6,16 @@ En esta practica de laboratorio realizaremos una simulacion e implementacion en 
 ### Diagrama de flujo
 
 La siguiente imagen es respecto al diagrama de flujo del proceso realizado por el robot:
-
-<img width="300" alt="workspace" src="images/flowchart.png">
-
+<p align="center">
+    <img width="300" alt="workspace" src="images/flowchart.png">
+</p>
 ### Planos del sistema
 
 A continuación veremos la distribucion del manipulador y del objeto de trabajo, asi como una vista general:
 
-![](images/VistaSup.png)
+<p align="center">
+    <img width="300" alt="workspace" src="images/Top.png">
+</p>
 
 >Vista superior
 
