@@ -114,6 +114,4 @@ Cada una de las partes son:
 
 ### Código en RAPID
 
-En el siguiente link se encuentra el código fuente utilizado en el modulo 1 del controlador:
-
-[Codigo fuente Rapid](RobotStudio/Project_Lab2.rspag/Controller%20Data/Controller_Lab2/RAPID/TASK1/PROGMOD/Module1.mod)
+En [Este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el modulo 1 del controlador.
