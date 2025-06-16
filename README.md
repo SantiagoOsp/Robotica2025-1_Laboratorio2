@@ -1,7 +1,11 @@
-# Robotica2025-1_Laboratorio2
-Repositorio destinado para subir archivos de simulación, diseño, de la practica 2 de laboratorio.
+# Robotica 2025-1 Laboratorio2
+Repositorio destinado para subir archivos de simulación, diseño, de la practica 2 del laboratorio.
 
-En esta practica de laboratorio realizaremos una simulacion e implementacion en un manipulador de la marca ABB (IRB140). Nos basaremos en la industria de la decoración de pasteles ya que buscaremos crear una imagen que muestre las iniciales de los integrantes del grupo. Para esto haremos uso del software RobotStudio donde crearemos una simulacion de la maquina, de la herramienta creada y del proceso de dibujo (trayectorias).
+En esta práctica de laboratorio realizaremos una simulacion e implementacion en un manipulador de la marca ABB (IRB140). Nos basaremos en la industria de la decoración de pasteles ya que buscaremos crear una imagen que muestre las iniciales de los integrantes del grupo. Para esto haremos uso del software RobotStudio donde crearemos una simulacion de la maquina, de la herramienta creada y del proceso de dibujo (trayectorias).
+
+
+
+
 
 ### Diagrama de flujo
 
@@ -9,27 +13,34 @@ La siguiente imagen es respecto al diagrama de flujo del proceso realizado por e
 <p align="center">
     <img width="300" alt="workspace" src="images/flowchart.png">
 </p>
+
+
+
+
+
 ### Planos del sistema
 
 A continuación veremos la distribucion del manipulador y del objeto de trabajo, asi como una vista general:
 
+>Vista superior
 <p align="center">
     <img width="500" alt="workspace" src="images/Top.png">
 </p>
 
->Vista superior
-
+>Vista isométrica del espacio de trabajo
 <p align="center">
     <img width="500" alt="workspace" src="images/Iso.png">
 </p>
 
->Distribución general
+
+
+
 
 ### Funciones utilizadas
 
 En la parte de la programación del controlador tenemos las siguientes funciones:
 
-- PROC y ENDPROC: Estas palabras estan reservadas para la creacion de "funciones", que en este caso se denominan procedimientos
+- PROC y ENDPROC: Estas palabras estan reservadas para la creacion de "funciones", que en este caso se denominan procedimientos.
 
     ```
     PROC nombre()
@@ -42,8 +53,8 @@ En la parte de la programación del controlador tenemos las siguientes funciones
 
     ```
     Set DO_01;
-    Reset DO_01;
-    Set vDO_01;
+    Reset DO_02;
+    Set vDO_03;
     ```
 
 - WaitTime: Pausa la ejecución durante un numero de segundos
@@ -66,38 +77,39 @@ En la parte de la programación del controlador tenemos las siguientes funciones
     - MoveC hace movimiento circular entre dos puntos intermedios, creando un arco o una curva.
 - TCP_Marcador y Workobject_pastel: Estas funciones permiten determinar los sistemas de coordenadas para la herramienta y el objeto de trabajo.
 - Por ultimo tenemos distintas funciones que son personalizadas:
-    - dibujar: Secuencia completa de trazado
-    - Path_Home: Lleva al robot a una posicion de inicio
-    - Path_Bor_Ext, Path_Bor_Int: Traza el borde de la figura
-    - Path_Decorado: Crea una linea "decorativa"
-    - Path_S, Path_01, Path_02, Path_J, Path_T, Path_J: Trazan las letras o figuras específicas
-    - Path_Mantenimiento: Lleva el robot a una posicion donde se puede manipular la herramienta facilmente
+    - dibujar: Secuencia completa de trazado.
+    - Path_Home: Lleva al robot a una posicion de inicio.
+    - Path_Bor_Ext, Path_Bor_Int: Traza el borde de la figura.
+    - Path_Decorado: Crea una linea "decorativa".
+    - Path_S, Path_01, Path_02, Path_J, Path_T, Path_J: Trazan las letras o figuras específicas.
+    - Path_Mantenimiento: Lleva el robot a una posicion donde se puede manipular la herramienta facilmente.
+
+
+
+
 
 ### Herramienta (TCP)
 
 Para la creacion de la herramienta se busco que fuera modular para mayor facilidad a la hora de montarla en el manipulador y tambien al insertar el marcador. La herramienta tiene un tamaño particular ya que buscamos que tenga una tolerancia para el marcador, ya que en caso de que se mueva un poco mas de lo debido, no daña directamente el marcador ni la herramienta.
 
-A continuacion vemos el diseño en CAD:
-
+A continuacion vemos el diseño CAD en Autodesk Inventor:
 <p align="center">
     <img width="500" alt="workspace" src="images/Herramienta.png">
 </p>
-
->Diseño CAD
 
 Cada una de las partes son:
 
 - Base:
 <p align="center">
-    <img width="500" alt="workspace" src="images/base.png">
+    <img width="300" alt="workspace" src="images/base.png">
 </p>
 - Cuerpo:
 <p align="center">
-    <img width="500" alt="workspace" src="images/cuerpo.png">
+    <img width="300" alt="workspace" src="images/cuerpo.png">
 </p>
 - Tapa:
 <p align="center">
-    <img width="500" alt="workspace" src="images/tapa.png">
+    <img width="300" alt="workspace" src="images/tapa.png">
 </p>
 
 ### Código en RAPID
