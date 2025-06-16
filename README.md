@@ -12,6 +12,7 @@ En esta práctica de laboratorio realizaremos una simulacion e implementacion en
 - Project_Lab2.rspag: el archivo generado con Pack and Go en RobotStudio del proyecto trabajado.
 - WS_Tool.zip: el workspace de Autodesk Inventor de los archivos de modelado en Inventor (.ipt); archivos de impresión (.stl); ensamble (.iam); modelo CAD (.sat) y del proyecto completo (.ipj).
 - README.md: este documento.
+- images: carpeta de archivos de imágen usada en README.md.
 
 
 
@@ -31,7 +32,7 @@ En esta práctica de laboratorio realizaremos una simulacion e implementacion en
 La siguiente imagen es respecto al diagrama de flujo del proceso realizado por el robot:
 
 <p align="center">
-    <img width="300" alt="workspace" src="images/flowchart.png">
+    <img width="300" alt="workspace" src="images/DiagramaDeFlujo.png">
 </p>
 
 
