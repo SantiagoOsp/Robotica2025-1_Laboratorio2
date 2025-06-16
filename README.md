@@ -7,6 +7,14 @@ En esta práctica de laboratorio realizaremos una simulacion e implementacion en
 
 
 
+## Archivos del repositorio
+- Module1_OSP_TOV.mod: código en RAPID del módulo usado para la implementación.
+- Project_Lab2.rspag: el archivo generado con Pack and Go en RobotStudio del proyecto trabajado.
+- WS_Tool.zip: el workspace de Autodesk Inventor de los archivos de modelado en Inventor (.ipt); archivos de impresión (.stl); ensamble (.iam); modelo CAD (.sat) y del proyecto completo (.ipj).
+- README.md: este documento.
+
+
+
 ## Contenidos
 - [Diagrama de flujo](#diagrama-de-flujo)
 - [Planos del sistema](#planos-del-sistema)
