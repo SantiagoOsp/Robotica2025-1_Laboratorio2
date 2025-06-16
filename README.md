@@ -7,7 +7,7 @@ En esta práctica de laboratorio realizaremos una simulacion e implementacion en
 
 
 
-### Diagrama de flujo
+## Diagrama de flujo
 
 La siguiente imagen es respecto al diagrama de flujo del proceso realizado por el robot:
 <p align="center">
@@ -18,7 +18,7 @@ La siguiente imagen es respecto al diagrama de flujo del proceso realizado por e
 
 
 
-### Planos del sistema
+## Planos del sistema
 
 A continuación veremos la distribucion del manipulador y del objeto de trabajo, asi como una vista general:
 
@@ -36,7 +36,7 @@ A continuación veremos la distribucion del manipulador y del objeto de trabajo,
 
 
 
-### Funciones utilizadas
+## Funciones utilizadas
 
 En la parte de la programación del controlador tenemos las siguientes funciones:
 
@@ -88,7 +88,7 @@ En la parte de la programación del controlador tenemos las siguientes funciones
 
 
 
-### Herramienta (TCP)
+## Herramienta - Efector final
 
 Para la creacion de la herramienta se busco que fuera modular para mayor facilidad a la hora de montarla en el manipulador y tambien al insertar el marcador. La herramienta tiene un tamaño particular ya que buscamos que tenga una tolerancia para el marcador, ya que en caso de que se mueva un poco mas de lo debido, no daña directamente el marcador ni la herramienta.
 
@@ -112,6 +112,6 @@ Cada una de las partes son:
     <img width="300" alt="workspace" src="images/tapa.png">
 </p>
 
-### Código en RAPID
+## Código en RAPID
 
-En [Este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el modulo 1 del controlador.
+En [este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el modulo 1 del controlador.
