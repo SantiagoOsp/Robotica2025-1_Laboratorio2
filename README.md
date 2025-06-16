@@ -7,6 +7,18 @@ En esta práctica de laboratorio realizaremos una simulacion e implementacion en
 
 
 
+## Contenidos
+- [Diagrama de flujo](#diagrama-de-flujo)
+- [Planos del sistema](#planos-del-sistema)
+- [Código en RAPID](#código-en-rapid)
+- [Funciones utilizadas](#funciones-utilizadas)
+- [Herramienta - Efector final](#herramienta---efector-final)
+- [Video: simulación e implementación](#video-simulación-e-implementación)
+
+
+
+
+
 ## Diagrama de flujo
 La siguiente imagen es respecto al diagrama de flujo del proceso realizado por el robot:
 
@@ -30,6 +42,13 @@ A continuación veremos la distribucion del manipulador y del objeto de trabajo,
 <p align="center">
     <img width="500" alt="workspace" src="images/Iso.png">
 </p>
+
+
+
+
+
+## Código en RAPID
+En [este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el modulo 1 del controlador.
 
 
 
@@ -104,13 +123,6 @@ Cada una de las partes son:
 <p align="center">
     <img width="300" alt="workspace" src="images/tapa.png">
 </p>
-
-
-
-
-
-## Código en RAPID
-En [este](Module1_OSP_TOV.mod) archivo se encuentra el código fuente utilizado en el modulo 1 del controlador.
 
 
 
