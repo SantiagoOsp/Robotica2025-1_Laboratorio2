@@ -10,9 +10,9 @@ En esta práctica de laboratorio realizaremos una simulacion e implementacion en
 ## Contenidos
 - [Diagrama de flujo](#diagrama-de-flujo)
 - [Planos del sistema](#planos-del-sistema)
-- [Código en RAPID](#código-en-rapid)
-- [Funciones utilizadas](#funciones-utilizadas)
+- [Funciones y estructuras de programación utilizadas](#funciones-y-estructuras-de-programación-utilizadas)
 - [Herramienta - Efector final](#herramienta---efector-final)
+- [Código en RAPID](#código-en-rapid)
 - [Video: simulación e implementación](#video-simulación-e-implementación)
 
 
